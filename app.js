@@ -14,5 +14,5 @@ cron.schedule("2-6 * * * * *",()=>{
 });
 
 cron.schedule("0 0 10 * Feb *", ()=>{   //0 0 10 * FEb * means at  10 am 0second 0 minute everyday for the month of feb every week
-    console.log("californium class is sceduled everyday at 10 AM", moment().format("DD MMM YYY hh:mm:ss"))
+    console.log("californium class is scheduled everyday at 10 AM", moment().format("DD MMM YYY hh:mm:ss"))
 });
